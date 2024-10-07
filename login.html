@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
 
 </head>
-<body style="width:auto;">
-    <div class="parent">
+<body>
+    <div class="parent d-flex">
+        <img src="#" alt="">
         <nav class="d-flex fw-bold bg-success-subtle">
-            <img src="#" alt="">
             <ul class="">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Products</a>
-                   
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="">Agri-Loan</a>
+                        <a href="">Agri-Loan</a>
+                        <a href="">Agri-Loan</a>
+                    </div>
                 </li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+                    <li><a href="#">Contact</a></li>
+                </ul> 
+               
             <div class="">
                 <button class="btn btn-border btn-success px-5"><a href="signup.html" class="text-white text-decoration-none">Sign UP</a></button>
                 <button class="btn btn-border btn-success me-3 px-5"><a href="login.html"class="text-white text-decoration-none">LOGIN</a></button>
@@ -52,22 +58,24 @@
             
 
             <p class="text-center text-success mx-auto fw-bold">LOGIN WITH YOUR EMAIL AND PASSWORD</p>
-            <section class=" login border border-3 rounded mt-5 me- col-4 shadow">
+            <section class=" login border border-3 rounded  col-4 shadow bg-white">
+                <form action="">
 
-                    <form class=" myform bg-white" >
+                    <div class=" bg-white mx-2 mt-2" >
                         <label for="Email Address">Email Address</label>
-                        <input class="form-control mb-3" type="Email" placeholder="Enter Your Email-Address" autofocus>
+                        <input class="form-control mb-3" type="Email" aria-label ="Enter Your Email-Address example" autofocus>
                         
                         <label  for="Password">Password</label>
                         <input class="form-control mb-2 " type="password" placeholder="********">
                         <a class="text-center text-sucess mb-5">Forgot Password?!!</a>
-                        <input type="button" class=" bg-success text-white form-control mb-5 "  Value="SIGN IN">
+                        <input type="button" class=" bg-success text-white form-control mb-5 "  Value="LOG IN">
                         <p>Need an account? <a href="#">Sign up</a></p>
                         <p class="text-success"> <input type="checkbox" > Tick for sign up confirmation</p> 
-                    </form>
+                    </div>
+                </form>
         
                 </section>
-</div>
+
         </div>
     
         
