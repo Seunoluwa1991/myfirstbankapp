@@ -144,20 +144,21 @@ nav{
     animation-delay: 1s;
 }
 
-.section-3{
-        display:flex;
-        justify-content: center;
-}
+
 
 .bankDetails{
     width: 15rem;
     height: 15rem;
     /* background-color: #0d871fbe; */
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    margin: 30px;
-    margin-top: 100px;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    /* margin-left: 100px; */
+    /* margin-top: 100px; */
     
 }
+.man{
+    margin: 10px;
+}
+
 
 
 .hightLight{
@@ -271,22 +272,15 @@ i{
 }
 
 .picAdv{
-    position: absolute;
      margin-top: 50px;
      margin-left: 300px;
-    /*height: 10px;
-    width: 5px; */
     
-    /* aspect-ratio: 1; */
-    /* border-radius: 50%; */
 }
 
-.circum{
-    /* margin-left: 200px; */
-  }
+
 
 .roll{
-    height: 200px;
+    height: 300px;
     aspect-ratio: 1;
     border-radius: 50%;
 }

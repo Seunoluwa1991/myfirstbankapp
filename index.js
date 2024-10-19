@@ -48,3 +48,23 @@ function product(){
 //                 <option value ="Loan">Loan</li>
 //     `
 // }
+
+document.getElementById("button").addEventListener("click", ()=>{
+   let firstName = document.getElementById("firstName").value;
+   let middleName = document.getElementById("middleName").value;
+   let lastName = document.getElementById("lastName").value;
+   let phoneNumber = document.getElementById("phoneNumber").value;
+   let addressDetails = document.getElementById("addressDetails").value;
+   let dateOfBirth = document.getElementById("dateOfBirth").value;
+   let  emailAddress= document.getElementById("emailAddress").value;
+   
+   let objUser ={
+      firstName,
+      middleName,
+      lastName,
+      phoneNumber,
+      addressDetails,
+      dateOfBirth,
+      emailAddress
+   }
+})
